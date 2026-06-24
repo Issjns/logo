@@ -1,0 +1,28 @@
+<svg width="512" height="512" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terranex icon">
+  
+  <defs>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFC23D"/>
+      <stop offset="45%" stop-color="#FFB000"/>
+      <stop offset="100%" stop-color="#FF8A00"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6FC2FF"/>
+      <stop offset="100%" stop-color="#3DA9FC"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#121A26"/>
+      <stop offset="100%" stop-color="#0A0E14"/>
+    </linearGradient>
+  </defs>
+  
+  <g>
+    <rect x="2" y="2" width="196" height="196" rx="46" fill="url(#bg)"/>
+       <rect x="2.75" y="2.75" width="194.5" height="194.5" rx="45.25" fill="none" stroke="#23303f" stroke-width="1.5"/>
+    <polygon points="100,34 157.1576764,67 157.1576764,133 100,166 42.8423236,133 42.8423236,67" fill="none" stroke="url(#steel)" stroke-width="9" stroke-linejoin="round"/>
+    <g fill="url(#amber)">
+      <rect x="60" y="60" width="80" height="17" rx="4.5"/>
+      <rect x="91.5" y="60" width="17" height="86" rx="4.5"/>
+    </g>
+  </g>
+</svg>
