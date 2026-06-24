@@ -39,19 +39,19 @@
   </defs><rect x="2" y="2" width="196" height="196" rx="46" fill="url(#bgDark)"/>
           <rect x="3" y="3" width="194" height="194" rx="45" fill="none" stroke="#2b3947" stroke-width="1.5"/>
     <g stroke-linecap="round" fill="none">
-      <line x1="22" y1="104" x2="86" y2="100"  stroke="url(#trailDark)" stroke-width="9"  opacity="0.55"/>
-      <line x1="14" y1="126" x2="92" y2="122"  stroke="url(#trailDark)" stroke-width="13" opacity="0.85"/>
-      <line x1="26" y1="150" x2="84" y2="146"  stroke="url(#trailDark)" stroke-width="10" opacity="0.7"/>
-      <line x1="40" y1="170" x2="80" y2="168"  stroke="url(#trailDark)" stroke-width="7"  opacity="0.5"/>
+      <line x1="20" y1="104" x2="96"  y2="104" stroke="url(#trailDark)" stroke-width="9"  opacity="0.55"/>
+      <line x1="12" y1="126" x2="100" y2="126" stroke="url(#trailDark)" stroke-width="13" opacity="0.85"/>
+      <line x1="24" y1="150" x2="102" y2="150" stroke="url(#trailDark)" stroke-width="10" opacity="0.7"/>
+      <line x1="38" y1="170" x2="104" y2="170" stroke="url(#trailDark)" stroke-width="7"  opacity="0.5"/>
     </g>
   <g filter="url(#glowAmber)">
     <g filter="url(#dropDark)">
       <!-- crossbar -->
-      <path d="M48 44 L170 44 L158 76 L48 76 Z" fill="url(#amberFlat)"/>
-      <!-- stem leaning forward -->
-      <path d="M112 44 L158 44 L116 176 L82 176 Z" fill="url(#amber)"/>
+      <path d="M40 44 L170 44 L158 76 L40 76 Z" fill="url(#amberFlat)"/>
+      <!-- stem descending from the CENTER of the crossbar, leaning forward -->
+      <path d="M87 44 L123 44 L139 176 L103 176 Z" fill="url(#amber)"/>
       <!-- crossbar top bevel highlight -->
-      <path d="M48 44 L170 44 L166 54 L48 54 Z" fill="#FFE49A" opacity="0.45"/>
+      <path d="M40 44 L170 44 L166 54 L40 54 Z" fill="#FFE49A" opacity="0.45"/>
       <!-- stem leading-edge highlight -->
-      <path d="M146 44 L158 44 L120 162 L110 162 Z" fill="#FFE08A" opacity="0.5"/>
+      <path d="M113 44 L123 44 L139 176 L129 176 Z" fill="#FFE08A" opacity="0.5"/>
     </g></g></svg>
