@@ -55,28 +55,28 @@ function markVelocity(theme = "dark") {
   const trailGrad = theme === "light" ? "trailLight" : "trailDark";
   const drop = theme === "light" ? "dropLight" : "dropDark";
 
-  // Tapered, fading motion trails streaming off the back (left) of the T.
-  // Rounded caps + width variation give a sense of speed.
+  // Tapered, fading speed lines streaming off the lower-LEFT, tucked behind
+  // the stem's left edge so they read as motion — NOT as a cross-stroke.
   const trails = `
     <g stroke-linecap="round" fill="none">
-      <line x1="20" y1="104" x2="96"  y2="104" stroke="url(#${trailGrad})" stroke-width="9"  opacity="0.55"/>
-      <line x1="12" y1="126" x2="100" y2="126" stroke="url(#${trailGrad})" stroke-width="13" opacity="0.85"/>
-      <line x1="24" y1="150" x2="102" y2="150" stroke="url(#${trailGrad})" stroke-width="10" opacity="0.7"/>
-      <line x1="38" y1="170" x2="104" y2="170" stroke="url(#${trailGrad})" stroke-width="7"  opacity="0.5"/>
+      <line x1="16" y1="118" x2="88" y2="118" stroke="url(#${trailGrad})" stroke-width="9"  opacity="0.5"/>
+      <line x1="8"  y1="140" x2="90" y2="140" stroke="url(#${trailGrad})" stroke-width="13" opacity="0.85"/>
+      <line x1="22" y1="162" x2="89" y2="162" stroke="url(#${trailGrad})" stroke-width="10" opacity="0.65"/>
     </g>`;
 
-  // The T: a confident crossbar with a slight forward tilt, and a
-  // forward-leaning blade stem. Amber, with a bright leading edge.
+  // The T: a bold horizontal crossbar with a PERFECTLY VERTICAL, CENTERED
+  // stem so it reads unmistakably as a "T" (not a "7"). Amber, with a
+  // bright leading-edge highlight for depth.
   const t = `
     <g filter="url(#${drop})">
       <!-- crossbar -->
-      <path d="M40 44 L170 44 L158 76 L40 76 Z" fill="url(#amberFlat)"/>
-      <!-- stem descending from the CENTER of the crossbar, leaning forward -->
-      <path d="M87 44 L123 44 L139 176 L103 176 Z" fill="url(#amber)"/>
+      <path d="M34 40 L176 40 L176 74 L34 74 Z" fill="url(#amberFlat)"/>
+      <!-- vertical centered stem -->
+      <path d="M86 40 L124 40 L124 178 L86 178 Z" fill="url(#amber)"/>
       <!-- crossbar top bevel highlight -->
-      <path d="M40 44 L170 44 L166 54 L40 54 Z" fill="#FFE49A" opacity="0.45"/>
-      <!-- stem leading-edge highlight -->
-      <path d="M113 44 L123 44 L139 176 L129 176 Z" fill="#FFE08A" opacity="0.5"/>
+      <path d="M34 40 L176 40 L176 50 L34 50 Z" fill="#FFE49A" opacity="0.45"/>
+      <!-- stem right-edge highlight -->
+      <path d="M114 40 L124 40 L124 178 L114 178 Z" fill="#FFE08A" opacity="0.5"/>
     </g>`;
 
   // glow only looks good on dark
