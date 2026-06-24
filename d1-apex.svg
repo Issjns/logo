@@ -1,0 +1,45 @@
+<svg width="512" height="512" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="amber" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#FFD23D"/>
+      <stop offset="45%" stop-color="#FFB000"/>
+      <stop offset="100%" stop-color="#FF7A00"/>
+    </linearGradient>
+    <linearGradient id="amberFlat" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFC21A"/>
+      <stop offset="100%" stop-color="#FF8A00"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0.5">
+      <stop offset="0%" stop-color="#7CCBFF"/>
+      <stop offset="100%" stop-color="#2E97F0"/>
+    </linearGradient>
+    <linearGradient id="steelV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6FC2FF"/>
+      <stop offset="100%" stop-color="#2585DC"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="50%" cy="32%" r="85%">
+      <stop offset="0%" stop-color="#172333"/>
+      <stop offset="100%" stop-color="#070A10"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect x="2" y="2" width="196" height="196" rx="46" fill="url(#bg)"/>
+          <rect x="3" y="3" width="194" height="194" rx="45" fill="none" stroke="#2b3947" stroke-width="1.5"/>
+  <g filter="url(#softShadow)">
+    <!-- crossbar: a forward-tilted wedge -->
+    <path d="M40 50 L162 50 L150 82 L52 82 Z" fill="url(#steel)"/>
+    <!-- bevel highlight on crossbar -->
+    <path d="M40 50 L162 50 L158 60 L43 60 Z" fill="#BFE6FF" opacity="0.35"/>
+    <!-- stem: bold forward-leaning blade -->
+    <path d="M116 50 L150 50 L104 168 L70 168 Z" fill="url(#amber)"/>
+    <!-- inner speed cut (dark) -->
+    <path d="M120 62 L132 62 L100 144 L88 144 Z" fill="url(#bg)" opacity="0.55"/>
+    <!-- bright leading edge -->
+    <path d="M141 50 L150 50 L104 168 L96 168 Z" fill="#FFE08A" opacity="0.5"/>
+  </g></svg>
