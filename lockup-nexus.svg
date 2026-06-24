@@ -1,0 +1,54 @@
+<svg width="1438" height="188" viewBox="0 0 1437.9184952978053 188" xmlns="http://www.w3.org/2000/svg">
+  
+  <defs>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD23D"/>
+      <stop offset="40%" stop-color="#FFB000"/>
+      <stop offset="100%" stop-color="#FF7A00"/>
+    </linearGradient>
+    <linearGradient id="amberV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD23D"/>
+      <stop offset="100%" stop-color="#FF7A00"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7CCBFF"/>
+      <stop offset="100%" stop-color="#2E97F0"/>
+    </linearGradient>
+    <linearGradient id="steelDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3DA9FC"/>
+      <stop offset="100%" stop-color="#1C6FB5"/>
+    </linearGradient>
+    <linearGradient id="amberDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E08800"/>
+      <stop offset="100%" stop-color="#B85E00"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="50%" cy="35%" r="80%">
+      <stop offset="0%" stop-color="#16202E"/>
+      <stop offset="100%" stop-color="#080B11"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowBig" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="12" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1437.9184952978053" height="188" rx="30" fill="url(#bg)"/>
+  <g transform="translate(34,34) scale(0.6)">
+  <rect x="2" y="2" width="196" height="196" rx="44" fill="url(#bg)"/>
+          <rect x="2.5" y="2.5" width="195" height="195" rx="43.5" fill="none" stroke="#26313f" stroke-width="1.5"/>
+  <g filter="url(#glow)">
+    <polygon points="6,100 22,85 178,85 194,100 178,115 22,115" fill="url(#steel)" transform="rotate(-45 100 100)"/>
+    <polygon points="6,100 22,85 178,85 194,100 178,115 22,115" fill="url(#amber)" transform="rotate(45 100 100)"/>
+    <circle cx="100" cy="100" r="13" fill="#0A0E14"/>
+    <circle cx="100" cy="100" r="8.5" fill="#FFE08A"/>
+  </g></g>
+  <g transform="translate(190,34.00000000000001) scale(0.6269592476489028)">
+    <g transform="translate(0,150)">
+      <path d="M54 147.60L34.20 147.60L34.20 60.60L3.60 60.60L3.60 42.60L84.60 42.60L84.60 60.60L54 60.60L54 147.60ZM316.50 147.60L248.10 147.60L248.10 42.60L315.60 42.60L315.60 60.60L267.90 60.60L267.90 85.65L311.40 85.65L311.40 103.65L267.90 103.65L267.90 129.60L316.50 129.60L316.50 147.60ZM501.00 147.60L481.20 147.60L481.20 42.60L526.80 42.60Q536.70 42.60 544.05 46.05Q551.40 49.50 555.45 55.80Q559.50 62.10 559.50 70.65L559.50 70.65L559.50 72.45Q559.50 81.90 555 87.75Q550.50 93.60 543.90 96.30L543.90 96.30L543.90 99Q549.90 99.30 553.20 103.13Q556.50 106.95 556.50 113.25L556.50 113.25L556.50 147.60L536.70 147.60L536.70 116.10Q536.70 112.50 534.82 110.25Q532.95 108 528.60 108L528.60 108L501.00 108L501.00 147.60ZM501.00 60.60L501.00 90L524.70 90Q531.75 90 535.72 86.17Q539.70 82.35 539.70 76.05L539.70 76.05L539.70 74.55Q539.70 68.25 535.80 64.42Q531.90 60.60 524.70 60.60L524.70 60.60L501.00 60.60ZM745.80 147.60L726.00 147.60L726.00 42.60L771.60 42.60Q781.50 42.60 788.85 46.05Q796.20 49.50 800.25 55.80Q804.30 62.10 804.30 70.65L804.30 70.65L804.30 72.45Q804.30 81.90 799.80 87.75Q795.30 93.60 788.70 96.30L788.70 96.30L788.70 99Q794.70 99.30 798.00 103.13Q801.30 106.95 801.30 113.25L801.30 113.25L801.30 147.60L781.50 147.60L781.50 116.10Q781.50 112.50 779.62 110.25Q777.75 108 773.40 108L773.40 108L745.80 108L745.80 147.60ZM745.80 60.60L745.80 90L769.50 90Q776.55 90 780.52 86.17Q784.50 82.35 784.50 76.05L784.50 76.05L784.50 74.55Q784.50 68.25 780.60 64.42Q776.70 60.60 769.50 60.60L769.50 60.60L745.80 60.60ZM984.00 147.60L963.60 147.60L991.20 42.60L1025.70 42.60L1053.30 147.60L1032.90 147.60L1027.20 124.50L989.70 124.50L984.00 147.60ZM1007.10 55.05L994.35 106.20L1022.55 106.20L1009.80 55.05L1007.10 55.05Z" transform="translate(0,-150)" fill="#EEF3FA"/>
+      <path d="M29.40 147.60L9.90 147.60L9.90 42.60L47.55 42.60L68.40 134.10L71.10 134.10L71.10 42.60L90.60 42.60L90.60 147.60L52.95 147.60L32.10 56.10L29.40 56.10L29.40 147.60ZM328.80 147.60L260.40 147.60L260.40 42.60L327.90 42.60L327.90 60.60L280.20 60.60L280.20 85.65L323.70 85.65L323.70 103.65L280.20 103.65L280.20 129.60L328.80 129.60L328.80 147.60ZM509.40 147.60L486.90 147.60L517.65 94.65L487.20 42.60L509.70 42.60L530.55 80.55L533.25 80.55L554.10 42.60L576.60 42.60L546.15 94.65L576.90 147.60L554.40 147.60L533.25 108.75L530.55 108.75L509.40 147.60Z" transform="translate(1206.9999999999998,-150)" fill="url(#amber)"/>
+    </g>
+  </g>
+</svg>
