@@ -1,0 +1,67 @@
+<svg width="1636" height="204" viewBox="0 0 1635.8835199999999 204" xmlns="http://www.w3.org/2000/svg">
+  
+  <defs>
+    <linearGradient id="amber" x1="0.15" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#FFD23D"/>
+      <stop offset="42%" stop-color="#FFB000"/>
+      <stop offset="100%" stop-color="#FF7A00"/>
+    </linearGradient>
+    <linearGradient id="amberFlat" x1="0" y1="0" x2="1" y2="0.2">
+      <stop offset="0%" stop-color="#FFC21A"/>
+      <stop offset="100%" stop-color="#FF8A00"/>
+    </linearGradient>
+    <!-- motion trail gradient: fades from transparent (left) to steel (right) -->
+    <linearGradient id="trailDark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3DA9FC" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#5CB8FF" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="trailLight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2E97F0" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#1C7FD6" stop-opacity="1"/>
+    </linearGradient>
+    <radialGradient id="bgDark" cx="50%" cy="30%" r="90%">
+      <stop offset="0%" stop-color="#172333"/>
+      <stop offset="100%" stop-color="#070A10"/>
+    </radialGradient>
+    <linearGradient id="bgLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E8EDF4"/>
+    </linearGradient>
+    <filter id="glowAmber" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="dropDark" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="dropLight" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0A0E14" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="1635.8835199999999" height="204" rx="30" fill="url(#bgLight)"/>
+  <g transform="translate(36,36) scale(0.66)"><rect x="2" y="2" width="196" height="196" rx="46" fill="url(#bgLight)"/>
+          <rect x="3" y="3" width="194" height="194" rx="45" fill="none" stroke="#CBD6E6" stroke-width="1.5"/>
+    <g stroke-linecap="round" fill="none">
+      <line x1="22" y1="104" x2="86" y2="100"  stroke="url(#trailLight)" stroke-width="9"  opacity="0.55"/>
+      <line x1="14" y1="126" x2="92" y2="122"  stroke="url(#trailLight)" stroke-width="13" opacity="0.85"/>
+      <line x1="26" y1="150" x2="84" y2="146"  stroke="url(#trailLight)" stroke-width="10" opacity="0.7"/>
+      <line x1="40" y1="170" x2="80" y2="168"  stroke="url(#trailLight)" stroke-width="7"  opacity="0.5"/>
+    </g>
+  <g>
+    <g filter="url(#dropLight)">
+      <!-- crossbar -->
+      <path d="M48 44 L170 44 L158 76 L48 76 Z" fill="url(#amberFlat)"/>
+      <!-- stem leaning forward -->
+      <path d="M112 44 L158 44 L116 176 L82 176 Z" fill="url(#amber)"/>
+      <!-- crossbar top bevel highlight -->
+      <path d="M48 44 L170 44 L166 54 L48 54 Z" fill="#FFE49A" opacity="0.45"/>
+      <!-- stem leading-edge highlight -->
+      <path d="M146 44 L158 44 L120 162 L110 162 Z" fill="#FFE08A" opacity="0.5"/>
+    </g></g></g>
+  <g transform="translate(202,47.879999999999995) scale(0.7216)">
+    <g transform="translate(0,150)">
+      <path d="M54 147.60L34.20 147.60L34.20 60.60L3.60 60.60L3.60 42.60L84.60 42.60L84.60 60.60L54 60.60L54 147.60ZM316.50 147.60L248.10 147.60L248.10 42.60L315.60 42.60L315.60 60.60L267.90 60.60L267.90 85.65L311.40 85.65L311.40 103.65L267.90 103.65L267.90 129.60L316.50 129.60L316.50 147.60ZM501.00 147.60L481.20 147.60L481.20 42.60L526.80 42.60Q536.70 42.60 544.05 46.05Q551.40 49.50 555.45 55.80Q559.50 62.10 559.50 70.65L559.50 70.65L559.50 72.45Q559.50 81.90 555 87.75Q550.50 93.60 543.90 96.30L543.90 96.30L543.90 99Q549.90 99.30 553.20 103.13Q556.50 106.95 556.50 113.25L556.50 113.25L556.50 147.60L536.70 147.60L536.70 116.10Q536.70 112.50 534.82 110.25Q532.95 108 528.60 108L528.60 108L501.00 108L501.00 147.60ZM501.00 60.60L501.00 90L524.70 90Q531.75 90 535.72 86.17Q539.70 82.35 539.70 76.05L539.70 76.05L539.70 74.55Q539.70 68.25 535.80 64.42Q531.90 60.60 524.70 60.60L524.70 60.60L501.00 60.60ZM745.80 147.60L726.00 147.60L726.00 42.60L771.60 42.60Q781.50 42.60 788.85 46.05Q796.20 49.50 800.25 55.80Q804.30 62.10 804.30 70.65L804.30 70.65L804.30 72.45Q804.30 81.90 799.80 87.75Q795.30 93.60 788.70 96.30L788.70 96.30L788.70 99Q794.70 99.30 798.00 103.13Q801.30 106.95 801.30 113.25L801.30 113.25L801.30 147.60L781.50 147.60L781.50 116.10Q781.50 112.50 779.62 110.25Q777.75 108 773.40 108L773.40 108L745.80 108L745.80 147.60ZM745.80 60.60L745.80 90L769.50 90Q776.55 90 780.52 86.17Q784.50 82.35 784.50 76.05L784.50 76.05L784.50 74.55Q784.50 68.25 780.60 64.42Q776.70 60.60 769.50 60.60L769.50 60.60L745.80 60.60ZM984.00 147.60L963.60 147.60L991.20 42.60L1025.70 42.60L1053.30 147.60L1032.90 147.60L1027.20 124.50L989.70 124.50L984.00 147.60ZM1007.10 55.05L994.35 106.20L1022.55 106.20L1009.80 55.05L1007.10 55.05Z" transform="translate(0,-150)" fill="#0F1620"/>
+      <path d="M29.40 147.60L9.90 147.60L9.90 42.60L47.55 42.60L68.40 134.10L71.10 134.10L71.10 42.60L90.60 42.60L90.60 147.60L52.95 147.60L32.10 56.10L29.40 56.10L29.40 147.60ZM328.80 147.60L260.40 147.60L260.40 42.60L327.90 42.60L327.90 60.60L280.20 60.60L280.20 85.65L323.70 85.65L323.70 103.65L280.20 103.65L280.20 129.60L328.80 129.60L328.80 147.60ZM509.40 147.60L486.90 147.60L517.65 94.65L487.20 42.60L509.70 42.60L530.55 80.55L533.25 80.55L554.10 42.60L576.60 42.60L546.15 94.65L576.90 147.60L554.40 147.60L533.25 108.75L530.55 108.75L509.40 147.60Z" transform="translate(1206.9999999999998,-150)" fill="url(#amberFlat)"/>
+    </g>
+  </g>
+</svg>

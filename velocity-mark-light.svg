@@ -1,0 +1,57 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="amber" x1="0.15" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#FFD23D"/>
+      <stop offset="42%" stop-color="#FFB000"/>
+      <stop offset="100%" stop-color="#FF7A00"/>
+    </linearGradient>
+    <linearGradient id="amberFlat" x1="0" y1="0" x2="1" y2="0.2">
+      <stop offset="0%" stop-color="#FFC21A"/>
+      <stop offset="100%" stop-color="#FF8A00"/>
+    </linearGradient>
+    <!-- motion trail gradient: fades from transparent (left) to steel (right) -->
+    <linearGradient id="trailDark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3DA9FC" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#5CB8FF" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="trailLight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2E97F0" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#1C7FD6" stop-opacity="1"/>
+    </linearGradient>
+    <radialGradient id="bgDark" cx="50%" cy="30%" r="90%">
+      <stop offset="0%" stop-color="#172333"/>
+      <stop offset="100%" stop-color="#070A10"/>
+    </radialGradient>
+    <linearGradient id="bgLight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E8EDF4"/>
+    </linearGradient>
+    <filter id="glowAmber" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="dropDark" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="dropLight" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0A0E14" flood-opacity="0.18"/>
+    </filter>
+  </defs><rect x="2" y="2" width="196" height="196" rx="46" fill="url(#bgLight)"/>
+          <rect x="3" y="3" width="194" height="194" rx="45" fill="none" stroke="#CBD6E6" stroke-width="1.5"/>
+    <g stroke-linecap="round" fill="none">
+      <line x1="22" y1="104" x2="86" y2="100"  stroke="url(#trailLight)" stroke-width="9"  opacity="0.55"/>
+      <line x1="14" y1="126" x2="92" y2="122"  stroke="url(#trailLight)" stroke-width="13" opacity="0.85"/>
+      <line x1="26" y1="150" x2="84" y2="146"  stroke="url(#trailLight)" stroke-width="10" opacity="0.7"/>
+      <line x1="40" y1="170" x2="80" y2="168"  stroke="url(#trailLight)" stroke-width="7"  opacity="0.5"/>
+    </g>
+  <g>
+    <g filter="url(#dropLight)">
+      <!-- crossbar -->
+      <path d="M48 44 L170 44 L158 76 L48 76 Z" fill="url(#amberFlat)"/>
+      <!-- stem leaning forward -->
+      <path d="M112 44 L158 44 L116 176 L82 176 Z" fill="url(#amber)"/>
+      <!-- crossbar top bevel highlight -->
+      <path d="M48 44 L170 44 L166 54 L48 54 Z" fill="#FFE49A" opacity="0.45"/>
+      <!-- stem leading-edge highlight -->
+      <path d="M146 44 L158 44 L120 162 L110 162 Z" fill="#FFE08A" opacity="0.5"/>
+    </g></g></svg>
